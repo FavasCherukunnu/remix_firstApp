@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import OuterLayout from '../components/outerComponent'
 import DefInput from '../components/defInput'
-import PrimaryBtn from '../components/buttons/button'
+import {PrimaryBtn} from '../components/buttons/button'
 import { Form, Link, useActionData } from '@remix-run/react';
 import {getUser, login} from '../utils/auth.server'
 import { redirect } from '@remix-run/node';
